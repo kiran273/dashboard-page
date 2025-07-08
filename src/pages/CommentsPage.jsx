@@ -32,9 +32,9 @@ const CommentsPage = () => {
     <div className="min-h-screen bg-gray-100">
       <Header />
       
-      <main className="max-w-7xl mx-auto px-6 py-6">
-        <div className="flex items-center justify-between mb-6">
-          <div className="flex items-center space-x-6">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 py-4 sm:py-6">
+        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-6 space-y-4 lg:space-y-0">
+          <div className="flex flex-wrap items-center gap-4 sm:gap-6">
             <SortButton 
               field="postId" 
               sortField={state.sortField} 
@@ -61,7 +61,9 @@ const CommentsPage = () => {
             </SortButton>
           </div>
           
-          <SearchInput value={state.searchTerm} onChange={handleSearch} />
+          <div className="w-full lg:w-auto">
+            <SearchInput value={state.searchTerm} onChange={handleSearch} />
+          </div>
         </div>
 
         <div>

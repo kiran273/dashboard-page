@@ -20,16 +20,16 @@ const ProfilePage = () => {
     <div className="min-h-screen bg-gray-100">
       <Header showProfile={false} />
 
-      <main className="max-w-5xl mx-auto px-6 py-6">
+      <main className="max-w-5xl mx-auto px-4 sm:px-6 py-4 sm:py-6">
         <button
           onClick={() => navigate('/')}
-          className="flex items-center space-x-2 text-gray-600 hover:text-gray-800 mb-8 text-sm"
+          className="flex items-center space-x-2 text-gray-600 hover:text-gray-800 mb-6 sm:mb-8 text-sm"
         >
           <ArrowLeft className="w-4 h-4" />
           <span>Welcome, Ervin Howell</span>
         </button>
 
-        <div className="bg-white rounded-lg border border-gray-200 p-8">
+        <div className="bg-white rounded-lg border border-gray-200 p-4 sm:p-6 lg:p-8">
           <ProfileHeader />
           <ProfileForm user={user} />
         </div>
