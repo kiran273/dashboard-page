@@ -5,10 +5,6 @@ Link2: https://dashboard-page-kiran273s-projects.vercel.app/
 
 A modern, responsive React application for managing comments and user profiles with advanced filtering, sorting, and pagination capabilities.
 
-![React](https://img.shields.io/badge/React-18.3.1-blue.svg)
-![Vite](https://img.shields.io/badge/Vite-5.4.2-purple.svg)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.1-teal.svg)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)
 
 ## 📋 Table of Contents
 
