@@ -2,9 +2,12 @@
 
 A modern, responsive React application for managing comments and user profiles with advanced filtering, sorting, and pagination capabilities. Built with production-ready mobile-first design and cross-browser compatibility.
 
+Link1 : https://dashboard-page-nu.vercel.app/
+Link2 : https://dashboard-page-kiran273s-projects.vercel.app/
+
 ![React](https://img.shields.io/badge/React-18.3.1-blue.svg)
-![Vite](https://img.shields.io/badge/Vite-5.4.2-purple.svg)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.1-teal.svg)
+![Vite](https://img.shields.io/badge/Vite-7.0.0-purple.svg)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.1.11-teal.svg)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)
 ![Mobile](https://img.shields.io/badge/Mobile-Optimized-green.svg)
 
@@ -98,11 +101,11 @@ src/
          │              │  Local Storage   │             │
          │              │  (Persistence)   │             │
          │              └──────────────────┘             │
-         │                                                │
-         ▼                                                ▼
+         │                                               │
+         ▼                                               ▼
 ┌─────────────────┐                              ┌─────────────────┐
 │ External APIs   │                              │   User Interface│
-│ (JSONPlaceholder)│                              │   (React DOM)   │
+│(JSONPlaceholder)│                              │   (React DOM)   │
 └─────────────────┘                              └─────────────────┘
 ```
 
@@ -376,13 +379,13 @@ apiService.fetchUser(id)      // Get specific user (defaults to user 1)
 - **React Router DOM** (7.6.3): Client-side routing
 
 ### 🎨 UI & Styling
-- **Tailwind CSS** (3.4.1): Utility-first CSS framework with custom breakpoints
-- **Lucide React** (0.344.0): Icon library
+- **Tailwind CSS** (4.1.1): Utility-first CSS framework with custom breakpoints
+- **Lucide React** (0.525.0): Icon library
 - **PostCSS** (8.4.35): CSS processing
 - **Autoprefixer** (10.4.18): CSS vendor prefixing
 
 ### 🛠️ Development Tools
-- **Vite** (5.4.2): Build tool and dev server
+- **Vite** (7.0.0): Build tool and dev server
 - **TypeScript** (5.5.3): Type checking (optional)
 - **ESLint** (9.9.1): Code linting
 - **Various ESLint Plugins**: React-specific rules
@@ -457,7 +460,5 @@ This application demonstrates production-ready React development with:
 - ✅ **Professional UI/UX**: Clean, modern interface design
 
 **Ready for Production Deployment! 🚀**
-
-For questions, issues, or contributions, please refer to the project repository or contact the development team.
 
 **Happy Coding! 🚀**
